@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 07, 2023 at 06:57 PM
+-- Generation Time: May 07, 2023 at 09:47 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -115,12 +115,10 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`UserID`, `Username`, `Password`, `Email`, `FullName`, `admin`, `ImgeUser`, `Date`, `RegStatus`) VALUES
 (1, 'Mostafa1682002', '7c4a8d09ca3762af61e59520943dc26494f8941b', 'mosth123@gmail.com', 'Mostafa Hossam Rizk', 1, '10photo_2022-07-27_20-04-01.jpg', '2023-03-08', '1'),
-(12, 'mazen200278', '38504b39d9123721b8db660f0ac669094f99b7da', 'mazen@gmail.com', 'Mazen Mahmoud Ali', 0, 'Screenshot (3).png', '2023-03-13', '1'),
-(13, 'mostafa456', '1da108a436e5e7a8ed6910938f9c104023a2300c', 'ma9856603@gmail.com', 'Mostafa Hossam Bbb', 0, 'Screenshot (4).png', '2023-03-13', '1'),
-(14, 'nadamarzok5600', 'd6858443315e5d223b8c2fa13fa493c58ee91816', 'nada1234@gmail.com', 'Nada Mazen Abdallah', 0, 'Screenshot (1).png', '2023-03-13', '1'),
-(15, 'nosaa123', 'f7c3bc1d808e04732adf679965ccc34ca7ae3441', 'nosaa1478@gmail.com', 'Nosaa Khaled', 0, '2022-02-10 (3).png', '2023-03-17', '1'),
-(16, 'tefaa123131', 'e73c04c1545f52e67940f53366f4aa5d1e7fad6f', 'tefaa123@gmail.com', 'Mostafa  Gad', 0, 'فقه-شافعي-اولى-اعدادي.jpg', '2023-03-17', '1'),
-(19, 'admin', 'a56457d074671a2ac608b237be9a1e1bb4e4322c', 'admin@gmail.com', 'Admin Mn', 0, 'img.png', '2023-03-25', '1');
+(14, 'ahmedtarek254', 'd6858443315e5d223b8c2fa13fa493c58ee91816', 'ahmedtarek1234@gmail.com', 'Ahmed Tarek', 0, '20011026-_DSC0513.jpg', '2023-03-13', '1'),
+(15, 'Nagar2002', 'f7c3bc1d808e04732adf679965ccc34ca7ae3441', 'naser1478@gmail.com', 'Mostafa Nasser', 0, '1652462711310.jpg', '2023-03-17', '1'),
+(16, 'tefaa123131', 'e73c04c1545f52e67940f53366f4aa5d1e7fad6f', 'tefaa123@gmail.com', 'Mostafa  Gad', 0, '1660072895796.jpg', '2023-03-17', '1'),
+(19, 'admin', '39dfa55283318d31afe5a3ff4a0e3253e2045e43', 'admin@gmail.com', 'Admin Mn', 0, 'img.png', '2023-03-25', '1');
 
 --
 -- Indexes for dumped tables
@@ -183,7 +181,7 @@ ALTER TABLE `items`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `UserID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `UserID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- Constraints for dumped tables

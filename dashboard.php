@@ -37,7 +37,7 @@ $commentLasted = $commentLasted->fetchAll(PDO::FETCH_ASSOC);
             <div class="col  col-md-6 col-lg-3 col-12">
                 <div class="stat  total-items">
                     <p><i class="fas fa-tags"></i> Total Items</p>
-                    <span><a href="Admin/items/items.php" class="text-light text-decoration-none"><?php echo countItems("items") ?></a></span>
+                    <span><a href="/Admin/items/items.php" class="text-light text-decoration-none"><?php echo countItems("items") ?></a></span>
                 </div>
             </div>
             <div class="col  col-md-6 col-lg-3 col-12 ">
@@ -63,12 +63,12 @@ $commentLasted = $commentLasted->fetchAll(PDO::FETCH_ASSOC);
                                     <?php echo $user['Username'] ?>
                                     <div class="btns">
                                         <?php if ($user['RegStatus'] == 0) : ?>
-                                            <a href="/Tranining/Admin/Members/activate.php?id=<?php echo $user['UserID'] . "&username=" . $user['Username'] ?>" class="btn btn-primary btn-sm"><i class="fa-sharp fa-solid fa-check"></i>
+                                            <a href="/Admin/Members/activate.php?id=<?php echo $user['UserID'] . "&username=" . $user['Username'] ?>" class="btn btn-primary btn-sm"><i class="fa-sharp fa-solid fa-check"></i>
                                                 Activate</a>
                                         <?php
                                         endif
                                         ?>
-                                        <a href="/Tranining/Admin/Members/editeMember.php?id=<?php echo $user['UserID'] . "&username=" . $user['Username'] ?>" class=" btn btn-success btn-sm"><i class="fa-solid fa-pen-to-square"></i>
+                                        <a href="/Admin/Members/editeMember.php?id=<?php echo $user['UserID'] . "&username=" . $user['Username'] ?>" class=" btn btn-success btn-sm"><i class="fa-solid fa-pen-to-square"></i>
                                             Edit</a>
                                     </div>
                                 </li>
